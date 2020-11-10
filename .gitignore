@@ -1,0 +1,52 @@
+# =============== #
+# Unity generated #
+# =============== #
+[Tt]emp/
+[Oo]bj/
+[Bb]uild
+[Bb]uilds
+/[Ll]ibrary/
+Logs/
+/[Aa]ssets/**/*demo*
+sysinfo.txt
+*.stackdump
+.gradle/
+# ============================================= #
+# Visual Studio / MonoDevelop / Rider generated #
+# ============================================= #
+[Ee]xported[Oo]bj/
+.vs/
+.vscode/
+/*.userprefs
+/*.csproj
+/*.pidb
+/*.suo
+/*.sln*
+/*.user
+/*.unityproj
+/*.booproj
+/.idea*/
+ 
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+[Dd]esktop.ini
+[Dd]esktop.ini.meta
+[Tt]humbs.db.meta
+[Tt]emp.meta
+
+# ====================================== #
+# Ignore Firebase's auto-generated files #
+# ====================================== #
+
+Assets/Plugins/Android/firebase-common-10.2.0/*.meta
+Assets/Plugins/Android/firebase-iid-10.2.0/*.meta
+
+Assets/Plugins/Android/*.meta
+remote_config_data
