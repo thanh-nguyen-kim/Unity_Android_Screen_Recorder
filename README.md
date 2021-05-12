@@ -21,3 +21,7 @@
 
 + You might need to adjust the 'SCREEN_WIDTH' constant in AndroidUtils.cs for best video resolution. If 'SCREEN_WIDTH' is too big, your app may crash.
 + The plugin only support api 21 and higher.
+
+Visit this site to get a details explaining of Unity_Android_Screen_Recorder.
+
+<https://killertee.wordpress.com/2018/01/08/unity-android-record-game-screen-with-audio-using-your-ad-hoc-plug-in/>
