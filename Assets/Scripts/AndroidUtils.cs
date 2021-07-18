@@ -31,6 +31,15 @@ public enum AndroidPermission
     WRITE_CONTACTS,
     WRITE_EXTERNAL_STORAGE
 }
+public enum VideoEncoder
+{
+    DEFAULT,
+    H263,
+    H264,
+    HEVC,
+    MPEG_4_SP,
+    VP8
+}
 public class AndroidUtils : MonoBehaviour
 {
     private const float SCREEN_WIDTH = 720f;
@@ -53,7 +62,7 @@ public class AndroidUtils : MonoBehaviour
             int bitrate = (int)(1f * width * height / 100 * 240 * 7);
             int fps = 30;
             bool audioEnable=true;
-            androidRecorder.Call("setupVideo", width, height,bitrate, fps,audioEnable);//this line manual sets the video record setting. You ca use the defaut setting by comment this code block
+            androidRecorder.Call("setupVideo", width, height,bitrate, fps,audioEnable,VideoEncoder.H264.ToString());//this line manual sets the video record setting. You can use the defaut setting by comment this code block
         }
 #endif
     }
